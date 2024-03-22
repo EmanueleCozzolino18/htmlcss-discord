@@ -143,21 +143,38 @@ header {
     color: #23272A;
     font-size: 50px;
     line-height: 120%;
-    font-weight: 600;
+    font-weight: 1000;
 }
 
 .p-sec2 {
     margin-top: 15px;
     color: #23272A;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 550;
 }
 
 /* FINE TERZA SEZIONE */
 
+/* INZIO QUARTA SEZIONE */
+.img-margin {
+    margin-left: 20px;
+}
+
+.third-title {
+    color: #23272A;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.padding-50 {
+    padding-right: 50px;
+}
+
 .col-40 {
     width: 40%;
 }
+
+/* INZIO QUARTA SEZIONE */
 
 .col-2 {
     width: calc(100% / 6 * 2);
@@ -187,7 +204,7 @@ header {
 }
 
 .bg-lightgray {
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 .bg-green {
