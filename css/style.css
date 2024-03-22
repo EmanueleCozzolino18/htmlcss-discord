@@ -72,6 +72,13 @@ header {
 /* FINE ELEMENTI HEADER */
 
 /* SECONDA SEZIONE */
+
+.bg-sec1 {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .sec-title {
     color: white;
     padding: 70px 0px;
@@ -127,6 +134,27 @@ header {
 
 /* FINE SECONDA SEZIONE*/
 
+
+.padding-35 {
+    padding: 35px;
+}
+
+.sec-title2 {
+    color: #23272A;
+    font-size: 50px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.p-sec2 {
+    margin-top: 15px;
+    color: #23272A;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+/* FINE TERZA SEZIONE */
+
 .col-40 {
     width: 40%;
 }
@@ -153,18 +181,9 @@ header {
     text-align: left;
 }
 
-.bg-sec1 {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .bg-blue {
     background-color: #255ee9;
-}
-
-.bg-pink {
-    background-color: #FFC0CB;
 }
 
 .bg-lightgray {
