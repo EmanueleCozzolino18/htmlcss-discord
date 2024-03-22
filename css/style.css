@@ -304,6 +304,22 @@ header {
 }
 
 /* FINE SECONDA PARTE FOOTER */
+
+.foot-logo {
+    height: 34px;
+    width: 124px;
+    margin-top: 20px;
+}
+
+.reg-bluebutton {
+    color: white;
+    font-size: 19px;
+    background-color: #8EA1E1;
+    border-radius: 30px;
+    padding: 11px 15px;
+    margin: 0;
+}
+
 .text-right {
     text-align: right;
 }
@@ -314,27 +330,6 @@ header {
 
 .text-left {
     text-align: left;
-}
-
-
-.bg-blue {
-    background-color: #255ee9;
-}
-
-.bg-lightgray {
-    background-color: #F6F6F6;
-}
-
-.bg-green {
-    background-color: #228B22;
-}
-
-.bg-lightdark {
-    background-color: #23272A;
-}
-
-.bg-lightblue {
-    background-color: #7FFFD4;
 }
 
 .padding-20 {
@@ -350,26 +345,13 @@ header {
     margin: auto;
 }
 
-.height300 {
-    height: 300px;
-}
-
-.height600 {
-    height: 600px;
-}
-
-.height70px {
-    height: 70px;
-}
-
 .flex {
     display: flex;
     justify-content: space-between;
 }
 
-.button-space {
-    height: 40px;
-    width: 70px;
+.bg-lightgray {
+    background-color: #F6F6F6;
 }
 
 .section-wave {
@@ -389,4 +371,8 @@ header {
     background-size: cover;
     transform: rotate(180deg);
     filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(0%) hue-rotate(95deg) brightness(105%) contrast(93%);
+}
+
+hr {
+    color: #8EA1E1;
 }
