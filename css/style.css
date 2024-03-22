@@ -22,8 +22,11 @@ header {
     display: inline-block;
 }
 
-.unstyled-list li a {
+.text-colw li a {
     color: white;
+}
+
+.unstyled-list li a {
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
@@ -222,7 +225,7 @@ header {
 
 /* FINE SESTA SEZIONE*/
 
-/* INZIO  FOOTER SETTIMA SEZIONE*/
+/* INZIO PRIMA PARTE FOOTER SETTIMA SEZIONE*/
 
 .fot-bg {
     background-color: #23272A;
@@ -268,11 +271,39 @@ header {
     width: calc(100% / 6 * 2);
 }
 
-.col-n {
-    width: calc(100% / 6);
-    background-color: #20B2AA;
+/* FINE PRIMA PARTE FOOTER */
+
+/* INIZIO SECONDA PARTE FOOTER */
+
+.p-list {
+    padding-right: 20px;
 }
 
+#list-a {
+    color: #758CE1;
+}
+
+#list-b {
+    color: #758CE1;
+}
+
+#list-c {
+    color: #758CE1;
+}
+
+#list-d {
+    color: #758CE1;
+}
+
+.padding-r {
+    padding-right: 5px;
+}
+
+.col-n {
+    width: calc(100% / 6);
+}
+
+/* FINE SECONDA PARTE FOOTER */
 .text-right {
     text-align: right;
 }
@@ -339,4 +370,23 @@ header {
 .button-space {
     height: 40px;
     width: 70px;
+}
+
+.section-wave {
+    width: 100%;
+}
+
+.bgwave-top {
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(0%) hue-rotate(95deg) brightness(105%) contrast(93%);
+}
+
+.bgwave-bot {
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(0%) hue-rotate(95deg) brightness(105%) contrast(93%);
 }
