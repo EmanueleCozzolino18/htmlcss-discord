@@ -164,6 +164,7 @@ header {
     color: #23272A;
     font-size: 50px;
     font-weight: 1000;
+    margin-top: 20px;
 }
 
 .padding-50 {
@@ -174,7 +175,15 @@ header {
     width: 40%;
 }
 
-/* INZIO QUARTA SEZIONE */
+/* FINE QUARTA SEZIONE */
+
+/* INZIO QUINTA SEZIONE */
+
+.padding-60 {
+    padding-right: 60px;
+}
+
+/* FINE QUINTA SEZIONE */
 
 .col-2 {
     width: calc(100% / 6 * 2);
