@@ -266,7 +266,6 @@ header {
 
 .col-2 {
     width: calc(100% / 6 * 2);
-    background-color: #F08080;
 }
 
 .col-n {
